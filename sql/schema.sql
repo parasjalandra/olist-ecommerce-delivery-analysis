@@ -1,0 +1,9 @@
+-- Relationships:
+-- orders.customer_id -> customers.customer_id
+-- order_items.order_id -> orders.order_id
+-- order_items.product_id -> products.product_id
+-- order_items.seller_id -> sellers.seller_id
+-- payments.order_id -> orders.order_id
+-- reviews.order_id -> orders.order_id
+-- products.product_category_name -> product_category_name_translation.product_category_name
+-- Geolocation has repeated zip-code prefixes and is not unique on that field.

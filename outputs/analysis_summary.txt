@@ -1,0 +1,10 @@
+Delivered sample: 96470
+Late: 7826 (8.11%)
+On/before estimate: 88644 (91.89%)
+Mean delay days: -11.1781
+Median delay days: -11.9481
+Review-delay correlation: -0.2667
+
+                      model  Train_R2  Adjusted_R2           AIC           BIC  F_statistic  F_p_value  R2_test  RMSE_test  MAE_test
+     Model 1 - main effects  0.042112     0.041280 573685.985015 574315.235819    50.588696        0.0 0.037541  10.062780  6.579840
+Model 2 - with interactions  0.042260     0.041403 573678.066246 574325.824428    49.301263        0.0 0.037706  10.061912  6.579545
